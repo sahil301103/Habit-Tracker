@@ -1,0 +1,99 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background: linear-gradient(135deg, #43cea2, #185a9d);
+  font-family: "Segoe UI", sans-serif;
+}
+
+.app {
+  max-width: 420px;
+  margin: auto;
+  padding: 20px;
+  color: white;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.card {
+  background: white;
+  color: #333;
+  padding: 16px;
+  border-radius: 16px;
+  margin-bottom: 15px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+}
+
+input,
+select {
+  width: 100%;
+  padding: 10px;
+  margin: 6px 0;
+  border-radius: 10px;
+  border: 1px solid #ddd;
+}
+
+button {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 10px;
+  background: linear-gradient(135deg, #43cea2, #185a9d);
+  color: white;
+  cursor: pointer;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  background: #f7f7f7;
+  margin: 10px 0;
+  padding: 12px;
+  border-radius: 12px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+li small {
+  display: block;
+  color: gray;
+  font-size: 12px;
+}
+
+.right {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.streak {
+  font-weight: bold;
+  color: #e67e22;
+}
+
+.mark {
+  background: #2ecc71;
+  padding: 6px 10px;
+  width: auto;
+}
+
+.done {
+  background: #95a5a6;
+  padding: 6px 10px;
+  width: auto;
+}
+
+.delete {
+  background: transparent;
+  color: red;
+  width: auto;
+}
